@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuffedOppositeFaction-Exiled8", "CuffedOppositeFaction-Exiled8\CuffedOppositeFaction-Exiled8.csproj", "{BDCD1B54-A389-4E00-951C-3FD393FD29FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDCD1B54-A389-4E00-951C-3FD393FD29FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCD1B54-A389-4E00-951C-3FD393FD29FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCD1B54-A389-4E00-951C-3FD393FD29FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCD1B54-A389-4E00-951C-3FD393FD29FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F00718CD-DA4D-482E-A2A5-26356EC32040}
+	EndGlobalSection
+EndGlobal
