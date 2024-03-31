@@ -22,6 +22,7 @@ namespace CuffedOppositeFaction_Exiled8
             {
                 ev.NewRole = PlayerRoles.RoleTypeId.NtfSpecialist;
             }
+            Log.Debug("OnEscape Triggered");
         }
 
     }
