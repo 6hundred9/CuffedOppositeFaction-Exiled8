@@ -17,17 +17,14 @@ namespace CuffedOppositeFaction_Exiled8
         {
             if (ev.Player.IsNTF && ev.Player.IsCuffed)
             {
-                Log.Debug("Cuffed MTF");
                 ev.IsAllowed = true;
                 ev.NewRole = PlayerRoles.RoleTypeId.ChaosConscript;
             }
             if (ev.Player.IsCHI && ev.Player.IsCuffed)
             {
-                Log.Debug("Cuffed Chaos");
                 ev.IsAllowed = true;
                 ev.NewRole = PlayerRoles.RoleTypeId.NtfSpecialist;
             }
-            Log.Debug("OnEscape Triggered");
         }
 
     }
