@@ -13,6 +13,11 @@ namespace CuffedOppositeFaction_Exiled8
 {
     public class Plugin : Plugin<Config>
     {
+        public override string Author { get; } = "6hundred9";
+        public override string Name { get; } = "Cuffed Opposite Faction";
+        public override string Prefix { get; } = "COF";
+        public override Version RequiredExiledVersion { get; } = new Version(8, 8, 1);
+
         public override void OnEnabled()
         {
             Exiled.Events.Handlers.Player.Escaping += PlayerHandler.OnEscape;
